@@ -1,10 +1,11 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
+angular.module('ngApp', [
   'ngRoute',
-  'myApp.generations',
-  'myApp.version'
+  'ngApp.generations',
+  'ngApp.generationDetail',
+  'ngApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/generations'});
