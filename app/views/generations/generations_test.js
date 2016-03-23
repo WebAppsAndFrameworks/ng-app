@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.generations module', function() {
+describe('ngApp.generations module', function() {
 
-  beforeEach(module('myApp.generations'));
+  beforeEach(module('ngApp.generations'));
 
   describe('generations controller', function(){
 
