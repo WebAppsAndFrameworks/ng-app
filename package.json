@@ -1,0 +1,23 @@
+{
+  "name": "ng-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebAppsAndFrameworks/ng-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebAppsAndFrameworks/ng-app/issues"
+  },
+  "homepage": "https://github.com/WebAppsAndFrameworks/ng-app#readme",
+  "bundleDependencies": [
+    "angular"
+  ],
+  "dependencies": {
+    "angular": "^1.5.2"
+  }
+}
