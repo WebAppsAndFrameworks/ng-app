@@ -1,5 +1,13 @@
-<ul>
-	<li ng-repeat="generation in generations.results">
-		<a href='#/generationDetail?id={{ generation.generationId }}' class="list-group-item list-group-item-info"> {{ generation.name }} </a>
-	</li>
-</ul>
+<h1 class="page-header">Pokemon Generations</h1>
+
+<div class="row placeholders">
+<div class="col-xs-6 col-sm-3 placeholder" ng-repeat="generation in generations.results">
+	<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+	<h4>{{ generation.name }}</h4>
+	<span class="text-muted">
+		<a href='#/generationDetail?id={{ generation.generationId }}'>
+			Show all species...
+		</a>
+	</span>
+</div>
+</div>
