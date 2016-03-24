@@ -1,15 +1,5 @@
-
 <ul>
 	<li ng-repeat="generation in generations.results">
-		<div>
-
-			<a href='#/generationDetail?id={{ generation.generationId }}' class="list-group-item list-group-item-info" > {{ generation.name }} </a>
-			<div >
-						<br/>
-			</div>
-			<div class="Genarations">
-        <img ng-show="generation.generationId" src="img/poke-g{{generation.generationId}}.jpg" />
-      </div>
-		</div>
+		<a href='#/generationDetail?id={{ generation.generationId }}' class="list-group-item list-group-item-info"> {{ generation.name }} </a>
 	</li>
 </ul>
