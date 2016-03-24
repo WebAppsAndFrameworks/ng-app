@@ -1,0 +1,27 @@
+'use strict';
+
+angular.module('ngApp.generations', ['ngRoute', 'ngApp.config'])
+
+.config(['$routeProvider', function($routeProvider) {
+  $routeProvider
+    .when('/generations', {
+      templateUrl: 'views/generations/generations.html',
+      controller: 'GenerationsCtrl'
+    });
+}])
+
+.controller('GenerationsCtrl', ['$scope', '$routeParams', '$http', 'base_url', function($scope, $routeParams, $http, $base_url) {
+
+  var url = $base_url + '/generation';
+
+  $http.get(url).success(function(data) {
+      $scope.generations = data;
+
+      for (var i = 0; i < $scope.generations.results.length; i++) {
+        // get the last number from the string in the url member
+        var id = /(\d+)\/$/.exec($scope.generations.results[i].url)[1];
+        $scope.generations.results[i].generationId = id;
+      }
+
+  });
+}]);
