@@ -1,0 +1,16 @@
+F:\Code\AngularAppBuilding\ng-app\bin\Debug\ReverseMap\resources.pri
+F:\Code\AngularAppBuilding\ng-app\bin\Debug\AppxManifest.xml
+F:\Code\AngularAppBuilding\ng-app\bin\Debug\PokemonFindr.build.appxrecipe
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\ResourceHandlingTask.state
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\priconfig.xml
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\priconfig.xml.intermediate
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\layout.resfiles
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\layout.resfiles.intermediate
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\resources.resfiles
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\resources.resfiles.intermediate
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\pri.resfiles
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\pri.resfiles.intermediate
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\qualifiers.txt
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\qualifiers.txt.intermediate
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\Code\AngularAppBuilding\ng-app\bld\Debug\ProjectArchitectures.txt

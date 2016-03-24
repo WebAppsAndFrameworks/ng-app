@@ -1,0 +1,1 @@
+F:\Code\AngularAppBuilding\ng-app\PokemonFindr.jsproj;neutral

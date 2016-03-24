@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MININT-JJ5QJRB</Machine>
+    <WindowsUser>joelku</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0e72f476-66a7-45b6-a962-0af2f307feb3</PackageIdentityName>
+    <IntermediateOutputPath>F:\Code\AngularAppBuilding\ng-app\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>8672ED5AE8FBDA35090EACCCC0DCEBEF5CDD4C93E3CAE9FA4E71799F92155E49</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0e72f476-66a7-45b6-a962-0af2f307feb3_1.0.0.0_neutral__cfh86hqn5zc3r</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0e72f476-66a7-45b6-a962-0af2f307feb3_cfh86hqn5zc3r!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0e72f476-66a7-45b6-a962-0af2f307feb3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=joelku</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Code\AngularAppBuilding\ng-app\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-24T21:32:36.731</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Code\AngularAppBuilding\ng-app\appx-images\LockScreenLogo.scale-200.png">
+      <PackagePath>appx-images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-06-05T05:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Code\AngularAppBuilding\ng-app\appx-images\SplashScreen.scale-200.png">
+      <PackagePath>appx-images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-05T05:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Code\AngularAppBuilding\ng-app\appx-images\Square150x150Logo.scale-200.png">
+      <PackagePath>appx-images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-05T05:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Code\AngularAppBuilding\ng-app\appx-images\Square44x44Logo.scale-200.png">
+      <PackagePath>appx-images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-05T05:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Code\AngularAppBuilding\ng-app\appx-images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>appx-images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-05T05:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Code\AngularAppBuilding\ng-app\appx-images\StoreLogo.png">
+      <PackagePath>appx-images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-05T05:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Code\AngularAppBuilding\ng-app\appx-images\Wide310x150Logo.scale-200.png">
+      <PackagePath>appx-images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-05T05:32:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Code\AngularAppBuilding\ng-app\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-03-24T21:32:36.623</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
