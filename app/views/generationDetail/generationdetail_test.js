@@ -8,8 +8,8 @@ describe('ngApp.generationDetail module', function() {
 
     it('should ....', inject(function($controller) {
       //spec body
-      var generationsCtrl = $controller('GenerationDetailCtrl');
-      expect(generationsCtrl).toBeDefined();
+      var generationDetailCtrl = $controller('GenerationDetailCtrl');
+      expect(generationDetailCtrl).toBeDefined();
     }));
 
   });

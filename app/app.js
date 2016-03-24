@@ -5,7 +5,7 @@ angular.module('ngApp', [
   'ngRoute',
   'ngApp.generations',
   'ngApp.generationDetail',
-  'ngApp.version'
+  'ngApp.config'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/generations'});

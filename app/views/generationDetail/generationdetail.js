@@ -11,10 +11,10 @@ angular.module('ngApp.generationDetail', ['ngRoute'])
 }])
 
 .controller('GenerationDetailCtrl', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
-  $scope.name = 'Generations';
+  $scope.name = 'Generation Detail';
 
-  console.log($routeParams);
-  // todo: validate url!!
+  // todo: don't pass the full url in the params, just the id and build the url here 
+  // from the base_url config constant
   $http.get($routeParams.url).success(function(data) {
       $scope.species = data;
   });
