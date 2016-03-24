@@ -5,6 +5,7 @@ angular.module('ngApp', [
   'ngRoute',
   'ngApp.generations',
   'ngApp.generationDetail',
+  'ngApp.pokemonDetail',
   'ngApp.config'
 ]).
 config(['$routeProvider', function($routeProvider) {
