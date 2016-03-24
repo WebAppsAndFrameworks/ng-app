@@ -1,9 +1,14 @@
 <ul>
 	<li ng-repeat="pokemon in species.pokemon_species">
 		<div>
-			<a href='#/pokemonDetail?id={{ pokemon.pokemonId }}'>
+			<a href='#/pokemonDetail?id={{ pokemon.pokemonId }}' class="list-group-item list-group-item-success" >
 			{{ pokemon.name }}
 			</a>
+
+			<div >
+						<br/>
+			</div>
+
 		</div>
 	</li>
 </ul>
