@@ -10,12 +10,12 @@ angular.module('ngApp.generationDetail', ['ngRoute'])
     });
 }])
 
-.controller('GenerationDetailCtrl', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
+.controller('GenerationDetailCtrl', ['$scope', '$routeParams', '$http', 'data', function($scope, $routeParams, $http, data) {
   $scope.name = 'Generations';
 
-  console.log($routeParams);
-  // todo: validate url!!
-  $http.get($routeParams.url).success(function(data) {
+  var url = data.get('baseURL') + 'generation/' + $routeParams.url + '/';
+
+  $http.get(url).success(function(data) {
       $scope.species = data;
   });
 }]);;

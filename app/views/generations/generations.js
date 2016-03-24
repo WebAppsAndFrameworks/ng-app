@@ -10,14 +10,17 @@ angular.module('ngApp.generations', ['ngRoute'])
     });
 }])
 
-.controller('GenerationsCtrl', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
+.controller('GenerationsCtrl', ['$scope', '$routeParams', '$http', 'data', function($scope, $routeParams, $http, data) {
   $scope.name = 'Generations';
-  
-  $http.get('http://pokeapi.co/api/v2/generation/').success(function(data) {
+
+  var url = data.get('baseURL') + 'generation/';
+
+  $http.get(url).success(function(data) {
       $scope.generations = data;
-      
+
       for (var i = 0; i < $scope.generations.results.length; i++) {
-        $scope.generations.results[i].encodedUrl = encodeURIComponent($scope.generations.results[i].url);
+        var genNum = /(\d+)\/$/.exec($scope.generations.results[i].url)[1];
+        $scope.generations.results[i].encodedUrl = genNum;
       }
   });
 }]);
