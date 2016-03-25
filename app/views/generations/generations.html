@@ -1,13 +1,47 @@
 <h1 class="page-header">Pokemon Generations</h1>
 
 <div class="row placeholders">
-<div class="col-xs-6 col-sm-3 placeholder" ng-repeat="generation in generations.results">
+<div class="col-xs-6 col-sm-2 placeholder" ng-repeat="generation in generations.results">
 	<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
 	<h4>{{ generation.name }}</h4>
 	<span class="text-muted">
-		<a href='#/generationDetail?id={{ generation.generationId }}'>
-			Show all species...
-		</a>
+		<span class="link" ng-click='getGeneration(generation.generationId)'>
+			view all...
+		</span>
 	</span>
 </div>
+</div>
+
+<h2 class="sub-header">{{ generationName }}</h2>
+<div class="row">
+	<div class="col-xs-6 col-sm-4">
+	
+	<div class="table-responsive">
+		<table class="table table-striped">
+		<thead>
+			<tr>
+				<td>#</td>
+				<td>Name</td>
+			</tr>
+		</thead>
+		<tbody>
+		
+			<tr ng-repeat="pokemon in species.pokemon_species | filter:query">
+				<td>{{ pokemon.pokemonId }}</td>
+				<td><span ng-click="getPokemon(pokemon.pokemonId)" class="link">{{ pokemon.name }}</span></td>
+			</tr>
+		
+		</tbody>
+		</table>
+	</div>
+
+	</div>
+	<div class="col-xs-6 col-sm-8">
+		<div>
+			{{ pokemon.name }}
+			<br>
+			{{ pokemon.color.name }}
+			<img src="{{ pokemonImgUrl }}"/>
+		</div>
+	</div>
 </div>
