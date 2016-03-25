@@ -1,4 +1,3 @@
-<input ng-model="query">
 <ul>
 	<li ng-repeat="pokemon in species.pokemon_species | filter:query">
 		<a href='#/pokemonDetail?id={{ pokemon.pokemonId }}' class="list-group-item list-group-item-success">{{ pokemon.name }}</a>

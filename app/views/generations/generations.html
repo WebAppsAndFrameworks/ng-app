@@ -1,12 +1,12 @@
 <h1 class="page-header">Pokemon Generations</h1>
 
 <div class="row placeholders">
-<div class="col-xs-6 col-sm-3 placeholder" ng-repeat="generation in generations.results">
+<div class="col-xs-6 col-sm-2 placeholder" ng-repeat="generation in generations.results | filter:query">
 	<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
 	<h4>{{ generation.name }}</h4>
 	<span class="text-muted">
 		<a href='#/generationDetail?id={{ generation.generationId }}'>
-			Show all species...
+			view all...
 		</a>
 	</span>
 </div>
